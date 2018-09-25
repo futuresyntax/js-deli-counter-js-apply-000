@@ -13,6 +13,7 @@ function currentLine(line){
   return "The line is currently: " + lineNamesandNumbers.join(', ');
 }
 
+
 function nowServing(line) {
   if(!line.length) {
     console.log("There is nobody waiting to be served!")
